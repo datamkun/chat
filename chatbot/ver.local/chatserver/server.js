@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = 8080;だだ
 // CORSを有効にする
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
